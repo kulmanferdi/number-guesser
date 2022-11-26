@@ -1,15 +1,21 @@
+//import header files
 #include <stdio.h>
 #include <time.h>
 #include <stdint.h>
 #include <stdlib.h>
 #include <ctype.h>
+
+//pre-compiler definitions
 #define LEGENDARY 1
 #define GREAT MAX*0.3
 #define GOOD MAX*0.5
 #define POOR MAX*0.7
+
+//unique enums and new type name for floating point numbers
 enum GUESSRANGE {MIN = 1, MAX = 10};
 enum GAMEVERSION {MAJOR = 1, MINOR = 1, PATCH = 1};
 typedef float real;
+
 int main(void)
 {
     int8_t playAgain, title [] = {"Number Guesser Game"};
