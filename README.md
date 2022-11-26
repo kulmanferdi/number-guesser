@@ -27,3 +27,9 @@ gcc -o guess.out guess.c
 ```
 ./guess.out
 ```
+___
+
+Version nicknames:
+- 1.0: 🍏 &rarr; Apple
+- 1.1: 🍍 &rarr; Pineapple
+- 1.2: 🥑 &rarr; Avocado
