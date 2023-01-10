@@ -22,7 +22,7 @@ enum VERSION
 {
     MAJOR = 1,
     MINOR = 3,
-    PATCH = 0
+    PATCH = 1
 };
 
 //unique tpye definitions
@@ -69,8 +69,6 @@ int main(void)
                             scanf("%c", &errorChar);
                             errorChar = toupper(errorChar);
                         } while (errorChar != 'S' && errorChar != 'E');
-                        //available from next minor update (1.3.0)
-                        //(errorChar == 'S') ? goto start : goto end;
                         if(errorChar == 'S') goto start;                    
                         if(errorChar == 'E') goto end;
                     }                
