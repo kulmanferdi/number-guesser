@@ -52,7 +52,7 @@ int main(void)
             printf("Guess a number between %d and %d\n", MIN, MAX);
             srand(time(NULL));
             number = rand() % MAX + 1;
-            tries = 1;
+            tries = 0;
             do {
                 do {
                     printf("%d. guess: ", tries);
